@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #D9FFF5;
+}
+    
+
+header{
+    background-color: #084C61;
+    text-align: center;
+    padding: 8px;
+}
+
+main{
+    background-color: #B9F5D8;
+    border: 10px solid #D9FFF5;
+    margin: 0px 280px;
+    padding: 20px 20px 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+
+footer{
+    background-color: #084C61;
+    text-align: center;
+    padding: 8px;
+}
+
+footer p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+
+header h1{
+    font-size: 80px;
+    margin: 40px;
+    color: #D9FFF5;
+}
+
+
+h1{
+    font-size: 80px;
+    margin: 25px;
+    color: #AAD2BA;
+}
+
+h2{
+    font-size: 40px;
+    margin: 45px;
+    color: #084C61;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+nav ul{
+    float: left;
+    background-color: #6B8F71;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0% 30px;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+    
+nav ul a{
+    text-decoration: none;
+    color: #D9FFF5;
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    margin: 0%;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+li{
+    margin: 20px;
+}
+
+header p{
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+
+footer p{
+    margin: 0px 0px 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+}
+
+P{
+    margin: 0px 0px 26px;
+    text-align: justify;
+}
+
+a{
+  background-color: #6B8F71;
+}
+
+a :visited{
+    color: aqua;
+}
+
+header h1{
+    transition: margin-left 2s ease 1s;
+}
